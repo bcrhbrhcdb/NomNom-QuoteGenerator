@@ -1,8 +1,9 @@
-.main{
-  background-color: red;
-  width: 100%;
-  height: 100%;
+/* Set the background color of the body to rosybrown */
+body{
+  background-color: rosybrown;
 }
+/* Set the border radius and border of the generateQuote class */
 .generateQuote{
   border-radius: 50px;
+  border: none;
 }
