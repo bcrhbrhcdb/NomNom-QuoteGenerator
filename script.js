@@ -5,6 +5,6 @@ const quoteButton = document.getElementById('generateQuote');
 const quotes = [
     {
         name: 'test',
-        quote: 'textt'
+        quote: 'text'
     }
 ]
