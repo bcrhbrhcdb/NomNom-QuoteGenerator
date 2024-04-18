@@ -2,9 +2,13 @@
     "Codegeex.Chat.LanguagePreference": "English",
     "Codegeex.Comment.LanguagePreference": "English",
     "Codegeex.SidebarUI.LanguagePreference": "English",
-    "Codegeex.CompletionDelay": 1,
+    "Codegeex.CompletionDelay": 0.1,
     "Codegeex.EnableExtension": false,
     "Codegeex.GenerationPreference": "line by line",
-    "Codegeex.OnlyKeyControl": false,
-    "Codegeex.CommitMessageStyle": "Default"
+    "Codegeex.OnlyKeyControl": true,
+    "Codegeex.CommitMessageStyle": "Default",
+    "Codegeex.CandidateNum": "3 (slow)",
+    "Codegeex.CompletionModel": "CodeGeeX Pro[Beta]",
+    "Codegeex.UseSimilarFileForPrompt": true,
+    "Codegeex.Privacy": true
 }
