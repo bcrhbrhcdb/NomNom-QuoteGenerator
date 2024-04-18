@@ -3,5 +3,8 @@
     "Codegeex.Comment.LanguagePreference": "English",
     "Codegeex.SidebarUI.LanguagePreference": "English",
     "Codegeex.CompletionDelay": 1,
-    "Codegeex.EnableExtension": true
+    "Codegeex.EnableExtension": false,
+    "Codegeex.GenerationPreference": "line by line",
+    "Codegeex.OnlyKeyControl": false,
+    "Codegeex.CommitMessageStyle": "Default"
 }
