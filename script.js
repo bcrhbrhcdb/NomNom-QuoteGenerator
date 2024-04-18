@@ -4,6 +4,7 @@ let name = document.getElementById('name');
 let date = document.getElementById('date');
 let wotd = document.getElementById('wordOfTheDay');
 const quoteButton = document.querySelector('.generateQuote');
+const switchGenerator = document.getElementById('switchGenerator')
 //array for the quotes
 const quotes = [
     {
@@ -50,4 +51,10 @@ if(randomName){
 console.log(name, quote, date, wotd);
 
 });
+//switch generator
 
+switchGenerator.addEventListener('click', ()=>{
+    const mainContent = document.getElementById('gnnq');
+    mainContent.style.display = 'none';
+    
+})
