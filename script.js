@@ -6,8 +6,8 @@ const quoteButton = document.querySelector('.generateQuote');
 const quotes = [
     {
         wordOfTheDay: 'EXCALIBUR',
-        name: 'Alex',
-        quote: 'I am testing this stupid thing',
+        name: 'Oliver',
+        quote: 'whats wrong with me, why can i never do anything correct',
         date: '4/18/24'
     },
     {
@@ -26,7 +26,7 @@ quoteButton.addEventListener('click', () => {
     const randomWordOfTheDay = quotes[randomQuoteInfo].wordOfTheDay
 // Update the text content of the quote element
 
-if(randomQuote, randomName, randomDate){
+if(randomName){
     name.textContent = '';
     name.textContent += randomName
     quote.textContent = '';
@@ -41,4 +41,7 @@ if(randomQuote, randomName, randomDate){
     date.textContent += randomDate
     wotd.textContent += randomWordOfTheDay
 }    
+console.log(name, quote, date, wotd);
+
 });
+
