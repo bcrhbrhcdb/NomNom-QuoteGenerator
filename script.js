@@ -1,8 +1,10 @@
+//get id
 let quote = document.getElementById('quote');
 let name = document.getElementById('name');
 let date = document.getElementById('date');
 let wotd = document.getElementById('wordOfTheDay');
 const quoteButton = document.querySelector('.generateQuote');
+//array for the quotes
 const quotes = [
     {
         wordOfTheDay: 'EXCALIBUR',
@@ -17,6 +19,7 @@ const quotes = [
         date:'4/18/24'
     }
 ]
+
 quoteButton.addEventListener('click', () => {
     // Get a random quote info from the array
     const randomQuoteInfo = Math.floor(Math.random() * quotes.length);
@@ -27,6 +30,7 @@ quoteButton.addEventListener('click', () => {
 // Update the text content of the quote element
 
 if(randomName){
+    //see if there is a quote alread there
     name.textContent = '';
     name.textContent += randomName
     quote.textContent = '';
@@ -36,11 +40,13 @@ if(randomName){
     wotd.textContent = '';
     wotd.textContent += randomWordOfTheDay
 }else{
+    //if no quote
     name.textContent += randomName
     quote.textContent += randomQuote;
     date.textContent += randomDate
     wotd.textContent += randomWordOfTheDay
 }    
+//debug and see if it's constanly doing the same one
 console.log(name, quote, date, wotd);
 
 });
