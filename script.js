@@ -3,8 +3,13 @@ let quote = document.getElementById('quote');
 let name = document.getElementById('name');
 let date = document.getElementById('date');
 let wotd = document.getElementById('wordOfTheDay');
+let quote2 = document.getElementById('quote2');
+let name2 = document.getElementById('name2');
+let date2 = document.getElementById('date2');
 const quoteButton = document.querySelector('.generateQuote');
 const switchGenerator = document.getElementById('switchGenerator')
+const quoteButton2 = document.querySelector('.generateQuote2');
+const switchGenerator2 = document.getElementById('switchGenerator2')
 //array for the quotes
 const quotes = [
     {

@@ -61,7 +61,6 @@ p{
   cursor: pointer;
 }
 .generateNomNomQuote{
-  display: none;
   border-radius: 20px;
   border: none;
   width: 100%;
@@ -83,10 +82,18 @@ p{
   margin-top: 5px;
   padding: 10px;
   margin-bottom: 5px;
-  display: none;
+}
+.generateQuoteNormalQuote:hover{
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  height: auto;
+  font-size: 60px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 .quote2{
-  display: none;
   font-size: 50px;
   color: rgb(46, 46, 46);
   font-family: 'Courier New', Courier, monospace;
@@ -98,4 +105,7 @@ p{
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.normal{
+  display: none;
 }
