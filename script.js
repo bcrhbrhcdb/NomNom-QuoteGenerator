@@ -9,9 +9,8 @@ let date2 = document.getElementById('date2');
 //buttons 
 const quoteButton = document.querySelector('.generateQuote');
 const switchGenerator = document.getElementById('switchGenerator');
-const quoteButton2 = document.querySelector('.generateQuote2');
-const switchGenerator2 = document.getElementById('switchGenerator2');
-const nomNomQuote = document.getElementById('gnnq')
+const quoteButton2 = document.querySelector('.generateQuote2')
+
 //array for the quotes
 const quotes = [
     {
@@ -23,6 +22,18 @@ const quotes = [
     {
         wordOfTheDay: '??',
         name:'Alex',
+        quote:'Texttttt',
+        date:'4/18/24'
+    }
+]
+const quotes2 = [
+    {
+        name: 'Olieever',
+        quote: 'whats wrong with me, why can i never do anything correct',
+        date: '4/18/24'
+    },
+    {
+        name:'Aleex',
         quote:'Texttttt',
         date:'4/18/24'
     }
@@ -58,8 +69,32 @@ if(randomName){
 console.log(name, quote, date, wotd);
 
 });
-//switch generator
+//same thing but with nomrla quotes //add functionallity
+quoteButton.addEventListener('click', () => {
+    // Get a random quote info from the array
+    const randomQuoteInfo2 = Math.floor(Math.random() * quotes2.length);
+    const randomName2 = quotes2[randomQuoteInfo2].name;
+    const randomQuote2 = quotes2[randomQuoteInfo2].quote;
+    const randomDate2 = quotes2[randomQuoteInfo2].date;
+// Update the text content of the quote element
 
+if(randomName2){
+    //see if there is a quote alread there
+    name2.textContent = '';
+    name2.textContent += randomName2
+    quote2.textContent = '';
+    quote2.textContent += randomQuote2;
+    date2.textContent = '';
+    date2.textContent += randomDate2;
+}else{
+    //if no quote
+    name2.textContent += randomName2
+    quote2.textContent += randomQuote2;
+    date2.textContent += randomDate2
+} 
+console.log(name, quote, date, wotd);
+
+});
 
   
 
