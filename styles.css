@@ -74,3 +74,28 @@ p{
 .generateNomNomQuote:hover{
   cursor: pointer;
 }
+.generateQuoteNormalQuote{
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  height: auto;
+  font-size: 60px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: none;
+}
+.quote2{
+  display: none;
+  font-size: 50px;
+  color: rgb(46, 46, 46);
+  font-family: 'Courier New', Courier, monospace;
+  background-color: bisque;
+  border: 3px solid white;
+  border-radius: 20px;
+  height: 235px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
