@@ -60,7 +60,9 @@ p{
 .switchGenerator:hover{
   cursor: pointer;
 }
-.generateNomNomQuote{
+
+
+.generateQuoteNormalQuote, .generateNomNomQuote{
   border-radius: 20px;
   border: none;
   width: 100%;
@@ -70,28 +72,11 @@ p{
   padding: 10px;
   margin-bottom: 5px;
 }
-.generateNomNomQuote:hover{
+.generateQuoteNormalQuote:hover, .generateNomNomQuote:hover{
   cursor: pointer;
 }
-.generateQuoteNormalQuote{
-  border-radius: 20px;
-  border: none;
-  width: 100%;
-  height: auto;
-  font-size: 60px;
-  margin-top: 5px;
-  padding: 10px;
-  margin-bottom: 5px;
-}
-.generateQuoteNormalQuote:hover{
-  border-radius: 20px;
-  border: none;
-  width: 100%;
-  height: auto;
-  font-size: 60px;
-  margin-top: 5px;
-  padding: 10px;
-  margin-bottom: 5px;
+.generateNomNomQuote{
+  display: none;
 }
 .quote2{
   font-size: 50px;

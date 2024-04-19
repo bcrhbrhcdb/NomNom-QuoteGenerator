@@ -6,10 +6,12 @@ let wotd = document.getElementById('wordOfTheDay');
 let quote2 = document.getElementById('quote2');
 let name2 = document.getElementById('name2');
 let date2 = document.getElementById('date2');
+//buttons 
 const quoteButton = document.querySelector('.generateQuote');
-const switchGenerator = document.getElementById('switchGenerator')
+const switchGenerator = document.getElementById('switchGenerator');
 const quoteButton2 = document.querySelector('.generateQuote2');
-const switchGenerator2 = document.getElementById('switchGenerator2')
+const switchGenerator2 = document.getElementById('switchGenerator2');
+const nomNomQuote = document.getElementById('gnnq')
 //array for the quotes
 const quotes = [
     {
@@ -25,7 +27,7 @@ const quotes = [
         date:'4/18/24'
     }
 ]
-
+//add functionallity
 quoteButton.addEventListener('click', () => {
     // Get a random quote info from the array
     const randomQuoteInfo = Math.floor(Math.random() * quotes.length);
@@ -58,8 +60,6 @@ console.log(name, quote, date, wotd);
 });
 //switch generator
 
-switchGenerator.addEventListener('click', ()=>{
-    const mainContent = document.getElementById('stuff');
-    mainContent.style.display = 'none';
-    
-})
+
+  
+
