@@ -54,7 +54,7 @@ console.log(name, quote, date, wotd);
 //switch generator
 
 switchGenerator.addEventListener('click', ()=>{
-    const mainContent = document.querySelectorAll('main');
+    const mainContent = document.getElementById('stuff');
     mainContent.style.display = 'none';
     
 })
